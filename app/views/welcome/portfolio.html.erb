@@ -1,0 +1,89 @@
+
+
+<div class="container col-md-8 col-md-offset-2">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+          href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Correspondence
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+      aria-labelledby="headingOne">
+        <div class="panel-body">
+          <%= link_to "Correspondence", "https://doliphant-correspondence.herokuapp.com",
+           :target => "_blank" %></br>
+          <%= link_to "Github: Correspondence", "https://github.com/doliphant/correspondence",
+           :target => "_blank" %></br>
+           This is my capstone project from my time with <%= link_to "Bloc.io",
+           "https://www.bloc.io", :target => "_blank" %>. This is an ongoing project for
+           trying new things both as developer and a creator of something new. I have always
+           been interested in how we communicate with one another due to both the amazing
+           ways we can share ideas and all of the interesting ways we seem to muck it up.
+           This project sprung from the desire to capture the romantic notion of the classic
+           correspondence. What happens when the permanence of a post is explicit and cannot
+           be edited? Or if two people can carry on a conversation without the influence of
+           a constant barrage of comments, and share it when they choose?
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+          href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Blocipedia
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+      aria-labelledby="headingTwo">
+        <div class="panel-body">
+          <%= link_to "Blocipedia", "https://doliphant-blocipedia.herokuapp.com",
+           :target => "_blank"  %></br>
+           <%= link_to "Github: Blocipedia", "https://github.com/doliphant/blocipedia",
+           :target => "_blank" %></br>
+           My second project with <%= link_to "Bloc.io", "https://www.bloc.io",
+           :target => "_blank" %>.
+           This is where things started to click for me.
+           I was able to implement more new ideas than on my first project due to a
+           better understanding of the big picture. ActiveRecord, model relationships,
+           controller actions, views, you name it. The project site itself is bare bones
+           function focused and demonstrates my struggles with front end design, but my
+           personal highlights include working with a joins table, policy with pundit,
+           and really getting to know the ActiveRecord Relationships that Rails can
+           obfuscate on basic projects.
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Blocitoff
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          <%= link_to "Blocitoff", "https://doliphant-blocitoff.herokuapp.com",
+           :target => "_blank"  %></br>
+           <%= link_to "Github: Blocitoff", "https://github.com/doliphant/blocitoff",
+           :target => "_blank" %></br>
+           My first project. A self destructing to do list.
+           Not much to look at, but my first foray without an explicit blueprint to follow.
+           Even so, most of the code is focused on using the small
+           set of familiar concepts I had at the time. Already looking back, I can see where
+           I shoehorned some code for a task that I simply didn’t know a better way to do yet,
+           or my clunky understanding of routes and model relationships. We all start somewhere,
+           and I share with you my humblest beginnings.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="about">Welcome</a>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Prospective Employers...", welcome_prospectives_path %></li>
+        <li><%= link_to "Coding Portfolio", welcome_portfolio_path %></li>
+        <li><%= link_to "Musings", welcome_musings_path %></li>
+      </ul>
+  </nav>
+
+
+<%= yield %>
+
+
+</body>
+</html>
