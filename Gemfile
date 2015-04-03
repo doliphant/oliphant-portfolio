@@ -11,6 +11,9 @@ group :development do
   gem 'sqlite3'
 end
 
+
+gem 'figaro', '1.0'
+
 gem 'bootstrap-sass', '~> 3.3.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
